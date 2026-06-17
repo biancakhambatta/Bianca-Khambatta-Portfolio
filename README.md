@@ -75,8 +75,53 @@ reflect real market dynamics.
 | NumPy | Numerical operations and outlier detection |
 | Matplotlib / Seaborn | Visualisation |
 | Scipy | Pearson correlation, OLS regression, z-score |
+
 | Jupyter Notebook | Development environment |
 
----
+
 
 ## Project Structure
+## Key Findings
+
+1. **Market growth:** Dubai's rental market grew from a median of ~$29,000/yr
+   in 2021 to a peak of ~$55,000/yr in mid-2023 — an ~90% increase over
+   two years — before cooling to ~$47,000/yr by 2026 as mortgage rates rose.
+
+2. **Barbell market structure:** Rather than a classic K-shaped recovery,
+   the data revealed a barbell pattern — luxury (peak index: 158.9) and
+   budget (peak index: 161.1) segments both significantly outperformed
+   mid-market (peak index: 135.4), suggesting two distinct demand drivers
+   operating simultaneously: capital inflow at the top, population-driven
+   undersupply at the bottom.
+
+3. **Mortgage rate correlation:** Pearson r = 0.518 (p < 0.0001) between
+   UAE mortgage rate and median rental prices — statistically significant
+   positive correlation, consistent with demand shifting from purchase to
+   rental as borrowing costs rose from ~1.5% in 2021 to ~5% in 2023.
+
+4. **Leading communities:** Dubai Islands (~28% avg YoY growth), Jumeirah
+   Beach Residence (~26%), and Jumeirah 1 (~25%) consistently outperformed
+   the market. Dubailand showed the lowest average growth at under 1% —
+   reflecting oversupply in that corridor.
+
+5. **Bedroom elasticity:** 1BR units showed the highest appreciation
+   (peak index: 198.2), nearly doubling from the 2021 baseline. 4+ BR
+   units showed the lowest growth (peak: 179.9) — suggesting the demand
+   surge was driven by single professionals and young couples rather
+   than families.
+
+6. **Metro proximity discount:** Contrary to conventional real estate
+   wisdom, Metro walkability correlated with a consistent ~53% rental
+   discount — reflecting Dubai's unique urban structure where premium
+   communities are car-dependent and Metro-served areas skew toward
+   affordable mid-density housing.
+
+7. **View premium:** Sea view commanded the highest rental premium at
+   +30% over community-facing units ($53,800 vs $41,400/yr), narrowly
+   outperforming Burj Khalifa view (+20%) and Marina view (+25%).
+
+8. **Structural price drivers:** Property size (r=0.782) and bedroom
+   count (r=0.735) are by far the strongest predictors of rental price.
+   Distance to Burj Khalifa showed a negligible negative correlation
+   (r=-0.040), and Metro distance showed almost no linear relationship
+   (r=0.048) — consistent with Dubai's car-centric premium market geography.
