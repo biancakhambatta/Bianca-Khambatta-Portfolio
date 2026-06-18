@@ -34,7 +34,7 @@ Secondary questions explored:
   units absorb price shocks differently than studios and 1-beds?
 - Is there evidence of a K-shaped recovery post-COVID in Dubai's rental
   market, where luxury and budget segments diverged significantly?
-- How does Metro proximity and freehold designation influence rental premiums,
+- How do Metro proximity and freehold designation influence rental premiums,
   and have those premiums shifted as infrastructure and policy evolved?
 
 ---
@@ -49,7 +49,7 @@ Secondary questions explored:
 **A note on methodology:** Listing-level records are generated via a hedonic 
 pricing model anchored to real DLD/Property Finder base prices per zone, real 
 CBUAE mortgage rate timelines, and real Dubai Metro coordinates. This is standard 
-methodology in real estate econometrics — the same approach used by central banks 
+methodology in real estate econometrics, the same approach used by central banks 
 and property research firms to produce market indices where transaction-level data 
 is incomplete or proprietary. Aggregate trends and community-level patterns 
 reflect real market dynamics.
@@ -58,11 +58,11 @@ reflect real market dynamics.
 
 | File | Rows | Description |
 |---|---|---|
-| `rentals.csv` | 25,000 | Annual rental contracts — primary analysis file |
+| `rentals.csv` | 25,000 | Annual rental contracts (primary analysis file) |
 | `area_prices_monthly.csv` | 6,384 | Monthly time series: 84 communities × 76 months |
-| `secondary_sales.csv` | 50,000 | Secondary market sales — used for K-shaped recovery comparison |
+| `secondary_sales.csv` | 50,000 | Secondary market sales (used for K-shaped recovery comparison) |
 | `metro_stations.csv` | 55 | Dubai Metro stations (Red + Green Line) with coordinates |
-| `off_plan.csv` | 12,000 | Off-plan listings — used for market context |
+| `off_plan.csv` | 12,000 | Off-plan listings (used for market context) |
 
 ---
 
@@ -84,35 +84,35 @@ reflect real market dynamics.
 ## Key Findings
 
 1. **Market growth:** Dubai's rental market grew from a median of ~$29,000/yr
-   in 2021 to a peak of ~$55,000/yr in mid-2023 — an ~90% increase over
-   two years — before cooling to ~$47,000/yr by 2026 as mortgage rates rose.
+   in 2021 to a peak of ~$55,000/yr in mid-2023, an ~90% increase over
+   two years, before cooling to ~$47,000/yr by 2026 as mortgage rates rose.
 
 2. **Barbell market structure:** Rather than a classic K-shaped recovery,
-   the data revealed a barbell pattern — luxury (peak index: 158.9) and
+   the data revealed a barbell pattern, luxury (peak index: 158.9) and
    budget (peak index: 161.1) segments both significantly outperformed
    mid-market (peak index: 135.4), suggesting two distinct demand drivers
    operating simultaneously: capital inflow at the top, population-driven
    undersupply at the bottom.
 
 3. **Mortgage rate correlation:** Pearson r = 0.518 (p < 0.0001) between
-   UAE mortgage rate and median rental prices — statistically significant
+   UAE mortgage rate and median rental prices, statistically significant
    positive correlation, consistent with demand shifting from purchase to
    rental as borrowing costs rose from ~1.5% in 2021 to ~5% in 2023.
 
 4. **Leading communities:** Dubai Islands (~28% avg YoY growth), Jumeirah
    Beach Residence (~26%), and Jumeirah 1 (~25%) consistently outperformed
-   the market. Dubailand showed the lowest average growth at under 1% —
+   the market. Dubailand showed the lowest average growth at under 1%,
    reflecting oversupply in that corridor.
 
 5. **Bedroom elasticity:** 1BR units showed the highest appreciation
    (peak index: 198.2), nearly doubling from the 2021 baseline. 4+ BR
-   units showed the lowest growth (peak: 179.9) — suggesting the demand
+   units showed the lowest growth (peak: 179.9), suggesting the demand
    surge was driven by single professionals and young couples rather
    than families.
 
 6. **Metro proximity discount:** Contrary to conventional real estate
    wisdom, Metro walkability correlated with a consistent ~53% rental
-   discount — reflecting Dubai's unique urban structure where premium
+   discount, reflecting Dubai's unique urban structure where premium
    communities are car-dependent and Metro-served areas skew toward
    affordable mid-density housing.
 
