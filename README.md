@@ -45,4 +45,4 @@ KNN regression model predicting idle CO₂ emissions at Dubai traffic signals us
 
 ---
 
-Email: khambattabianca@gmail.com · [LinkedIn](https://www.linkedin.com/in/bianca-khambatta-4b8a37400/)
+Email: khambattabianca@gmail.com · +971 54 184 5293 · [LinkedIn](https://www.linkedin.com/in/bianca-khambatta-4b8a37400/)
